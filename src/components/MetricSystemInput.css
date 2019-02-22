@@ -1,0 +1,42 @@
+.metric-odd-cell {
+    width: 15em;
+}
+
+.metric-even-cell {
+    width: 25em;
+}
+
+.metric-icon-cell {
+    width: 2em;
+}
+
+#metric-submit-btn {
+    text-align: center;
+}
+
+
+/*phone*/
+@media (max-width: 768px) {
+    .metric-odd-cell {
+        width: 5em;
+    }
+
+    .metric-even-cell {
+        width: 15em;
+    }
+
+    .metric-icon-cell {
+        width: 2em;
+    }
+
+    #metre-label {
+        width: 5em !important;
+    }
+
+}
+
+/*ipad*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
