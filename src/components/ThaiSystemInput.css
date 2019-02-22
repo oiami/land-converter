@@ -1,0 +1,32 @@
+.thai-system-input {
+    margin-top: 10px;
+}
+
+.ui.table:first-child {
+  margin-top: 10px;
+}
+.ui.celled.table tr td, .ui.celled.table tr th {
+    border: none;
+    text-align: center;
+}
+
+.ui.labeled.input.label {
+    width: 60px;
+    text-align: center;
+}
+
+#thai-input-submit-btn {
+    text-align: center;
+}
+
+.ui.icon.button {
+    width: 180px;
+}
+
+.odd-cell {
+    width: 15em !important;
+}
+
+.even-cell {
+    width: 5em !important;
+}
