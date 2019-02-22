@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -13,7 +13,9 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="stylesheet" href="%PUBLIC_URL%/semantic.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/index.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/mobile.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -23,11 +25,26 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Land Converter</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div class="ui top fixed menu">
+      <div class="item">
+        <img src="%PUBLIC_URL%/logo.png">
+      </div>
+      <a href="/" class="item">Home</a>
+    </div>
+    <div id="custom-header">
+      <H2>Hi There!</H2>
+      <p>Many regions have their own land measurement system. <br>
+        Converting from one system to another can be confusing. <br>
+        Here is the tool to help land size conversion to be much easier!
+      </p>
+    </div>
+    <div class="ui container">
+      <div id="root"></div>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

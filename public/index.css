@@ -1,0 +1,47 @@
+#custom-header {
+    height: 15em;
+    text-align: center;
+    color: #BFBFBF;
+    padding: 50px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #2E333E;
+}
+
+.ui.form {
+    background-color: #F5F3F4 !important;
+}
+
+.ui.fluid.dropdown {
+    height: 3em;
+}
+
+.ui.inverted.menu {
+    color: #272425;
+}
+
+.ui.inverted.segment, .ui.primary.inverted.segment {
+    /*background-color: #BF7A7A !important;*/
+    background-color: #BFBFBF !important;
+    margin-bottom: -1px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.ui.celled.table.tr.td {
+    text-align: center !important;
+}
+
+#input-text {
+    padding: 50px !important;
+}
+
+.ui.message {
+    text-align: center;
+    color: #38918B !important;
+    background-color: #d4eceb !important;
+}
+

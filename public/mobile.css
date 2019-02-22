@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    #custom-header {
+        margin-top: 30px;
+        height: 17em;
+    }
+    .ui.basic.label {
+        width: 4em !important;
+    }
+
+    .ui.right.labeled.input {
+        width: 21em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .ui.basic.label {
+        width: 4em !important;
+    }
+
+    .ui.right.labeled.input {
+        width: 12em;
+    }
+
+    #thai-input-submit-btn {
+        width: 12em;
+    }
+}
