@@ -38,7 +38,9 @@ class ThaiSystemInput extends React.Component {
                 <div className="ui basic label">Ngan</div>
               </div>
             </td>
-            <td className="even-cell"><div><i className="minus icon"/></div></td>
+            <td className="even-cell">
+              <div><i className="minus icon"/></div>
+            </td>
             <td className="odd-cell">
               <div className="ui fluid right labeled input">
                 <input type="text" value={this.state.wah} name="wah" onChange={this.handleInputChange}/>
@@ -46,19 +48,11 @@ class ThaiSystemInput extends React.Component {
               </div>
             </td>
           </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td>
-              <div id="thai-input-submit-btn">
-                <input className="ui icon button" type="submit" value="Convert"/>
-              </div>
-            </td>
-            <td></td>
-            <td></td>
-          </tr>
           </tbody>
         </table>
+        <div id="thai-input-submit-btn">
+          <input className="ui icon button" type="submit" value="Convert"/>
+        </div>
       </form>
     );
   }
