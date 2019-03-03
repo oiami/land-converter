@@ -5,6 +5,7 @@
 .ui.table:first-child {
   margin-top: 10px;
 }
+
 .ui.celled.table tr td, .ui.celled.table tr th {
     border: none;
     text-align: center;
